@@ -1,7 +1,7 @@
 Introversed Dark
 ===
 
-This is a dark theme designed for Brackets, making use of a muted color palette that's really nice looking. You'll code 10 times faster with this theme or your money back, guaranteed.
+This is a dark theme designed for Brackets, making use of a colorful palette that's really nice looking. You'll code 10 times faster with this theme or your money back, guaranteed.
 
 Screenshots
 ---
