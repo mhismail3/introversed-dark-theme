@@ -5,3 +5,6 @@ CHANGELOG
 
 ##1.0.1
 - [CHANGE] README update
+
+##1.0.2
+- [CHANGE] Minor update
