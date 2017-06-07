@@ -1,0 +1,22 @@
+{
+    "name": "introversed-dark",
+    "title": "Introversed Dark",
+    "description": "A dark theme designed for Brackets making use of muted colors.",
+    "homepage": "https://github.com/mhismail3/introversed-dark-theme",
+    "version": "1.0.0",
+    "author": "mhismail3",
+    "license": "MIT",
+     "repository": {
+        "type": "git",
+        "url": "https://github.com/mhismail3/introversed-dark-theme"
+    },
+    "theme": {
+        "file": "theme.less",
+        "dark": true,
+        "addModeClass": true
+    },
+    "engines": {
+        "brackets": ">=1.0.0"
+    },
+    "keywords": ["theme", "brackets", "flat", "flat ui", "dark", "extension", "ios", "osx", "apple"]
+}

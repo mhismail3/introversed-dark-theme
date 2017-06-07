@@ -1,0 +1,154 @@
+/* Introversed Dark - Theme file */
+
+
+@background: #1F1F21;
+@foreground: #E0E0E0;
+
+@white: #FFFFFF;
+@black: #000;
+@gray: #8e8e93;
+@orange: #f5c447;
+@blue: #4196d8;
+@red: #f46462;
+
+@string: #16c98d;
+@matching: #D2D7D3;
+@search: #8abee5;
+@search_match: #288ad6;
+@cursor: #EEEEEE;
+@white_space: #8E8E93;
+@error: #dc322f;
+
+
+.CodeMirror,
+.CodeMirror-scroll {
+    background-color: @background;
+    color: @foreground;
+}
+
+.CodeMirror-focused .CodeMirror-activeline-background {
+    background: #2d2d30;
+}
+
+.show-line-padding .CodeMirror-focused .CodeMirror-activeline-background {
+    box-shadow: inset 15px 0 0 0 @black;
+}
+
+.CodeMirror-focused .CodeMirror-activeline {
+    .CodeMirror-gutter-elt {
+        background: #2d2d30;
+        color: @blue;
+    }
+    .inline-widget .CodeMirror-gutter-elt {
+        color: #767676;
+    }
+}
+
+.cm-atom,
+.cm-string,
+.cm-string-2,
+.cm-hr {
+    color: @string;
+}
+
+.cm-number,
+.cm-attribute,
+.cm-plus {
+    color: @orange;
+}
+
+.cm-def,
+.cm-property {
+    color: @blue;
+}
+
+.cm-variable,
+.cm-variable-2,
+.cm-variable-3,
+.cm-operator,
+.cm-meta,
+.cm-bracket {
+    color: @foreground;
+}
+
+.cm-comment {
+    color: @gray;
+}
+
+.cm-error,
+.cm-minus {
+    color: @error;
+}
+
+.cm-header {
+    color: @red;
+}
+
+.cm-link {
+    color: #b77fdb;
+    text-decoration: none;
+}
+
+.cm-rangeinfo {
+    color: #6c71c4;
+}
+
+.cm-keyword,
+.cm-qualifier,
+.cm-builtin,
+.cm-tag,
+.cm-quote {
+    color: @red;
+}
+
+.CodeMirror-searching {
+    background-color: @search;
+    &.searching-current-match {
+        background-color: @search_match;
+    }
+}
+
+.CodeMirror-cursor {
+    border-left: 1px solid @cursor !important;
+}
+
+.CodeMirror-gutters {
+    background-color: @background;
+    border-right: none;
+}
+
+.CodeMirror-linenumber {
+    color: @foreground;
+}
+
+.CodeMirror .CodeMirror-selected {
+    background: #333f48;
+}
+
+.CodeMirror-focused .CodeMirror-selected {
+    background: #34495e;
+}
+
+.CodeMirror-matchingbracket {
+    background-color: rgba(239, 67, 159, 0.44);
+    color: @white !important;
+}
+
+.CodeMirror-matchingtag {
+    background-color: rgba(239, 67, 159, 0.44);
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-left: none !important;
+    border-bottom: 1px solid @white;
+}
+
+/* Non-editor styling */
+.image-view,
+.not-editor {
+    background-color: @background;
+}
+
+.view-pane .image-view {
+    color: @foreground;
+}
